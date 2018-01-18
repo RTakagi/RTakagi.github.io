@@ -1,74 +1,93 @@
 <!doctype html>
 <html lang="ja">
-  <head>
+
+<head>
     <title>わたしのページ</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <style type="text/css">
+        <!-- body {
+            background-image: url(https://rtakagi.github.io/55.gif);
+            background-repeat: repeat-x;
+            background-color: #FFFFFF;
+        }
+
+        -->
+    </style>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
     <style>
-      .cover {
-        background-color: #A4E25C;
-        background-size: cover;
-      }
+        .cover {
+            background-color: #b5de45;
+            background-size: cover;
+        }
     </style>
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-     
-      <div class="container">
-        <nav class="navbar navbar-expand-sm navbar-light">
-          <a href="" class="navbar-brand">メニュー→</a>
-          <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+
+        <div class="container">
+            <nav class="navbar navbar-expand-sm navbar-light">
+
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div id="menu" class="collapse navbar-collapse">
-            <ul class="navbar-nav">
-              <li class="nav-item"><a href="https://rtakagi.github.io/abcd" class="nav-link">チャート作成</a></li>
-              <li class="nav-item"><a href="https://rtakagi.github.io/intro" class="nav-link">自己紹介</a></li>
-              <li class="nav-item"><a href="" class="nav-link">その他</a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+                <div id="menu" class="collapse navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="https://rtakagi.github.io/intro" class="nav-link">自己紹介</a></li>
+                        <li class="nav-item"><a href="https://rtakagi.github.io/abcd" class="nav-link">チャート作成</a></li>
 
-      <div class="cover text-white text-center py-5">
-        <h1 class="display-4 mb-4">Welcome to my page!</h1>
-        <p></p>
-        <style>
-              p {
-   background-image: url("https://rtakagi.github.io/005.gif"); /* ※1 */
-   background-repeat: repeat-x;           /* ※2 */
-   overflow: hidden;                      /* ※3 */
-          }
-              </style>
-      </div>
+                        <li class="nav-item"><a href="" class="nav-link">その他</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="cover text-white text-center py-5">
+            <h1 class="display-4 mb-4">Welcome to my page!</h1>
+
+        </div>
+
     </header>
     <main>
-      <section class="py-5">
-        <h2 class="text-center mb-5">Link</h2>
-        <div class="container text-center">
-         <a href="https://rtakagi.github.io/intro" class="btn btn-success btn-lg">About me</a>
-         <a href="https://rtakagi.github.io/abcd" class="btn btn-success btn-lg">Google Chart</a>
-         <a href="" class="btn btn-success btn-lg">Blog</a>
-         
-                        <div class="col-sm-4">
-              <style>
-              p {
-   background-image: url("https://rtakagi.github.io/005.gif"); /* ※1 */
-   background-repeat: repeat-x;           /* ※2 */
-   overflow: hidden;                      /* ※3 */
+        <section class="py-5">
+            <h2 class="text-center mb-5">Link</h2>
+            <div class="container text-center">
+                <a href="https://rtakagi.github.io/intro" class="btn btn-success btn-lg">About me</a>
+                <a href="https://rtakagi.github.io/abcd" class="btn btn-success btn-lg">Google Chart</a>
+                <a href="https://rtakagi.github.io/myblog" class="btn btn-success btn-lg">Blog</a>
+
+                <div class="col-sm-4 text-center">
+                </div>
+            </div>
+            <!-- 抹茶の画像
+            <div align="center">
+            <img src="https://rtakagi.github.io/IMAG2550.jpg">
+            </div>
+        
+            <style>
+        img {
+            width: 100%;
+    max-width: 800px;
 }
-              
-              </style>
-             </div>
-          </div>
+    </style>
+    -->
     </main>
     <footer class="text-center text-muted py-4">
-      
+        <style type="text/css">
+            footer {
+                background-image: url(https://rtakagi.github.io/005.gif);
+                background-repeat: repeat-x;
+                background-color: #FFFFFF;
+            }
+        </style>
+
+
     </footer>
 
     <!-- Optional JavaScript -->
@@ -77,10 +96,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <script>
-      $(function() {
-        'use strict';
-        $('[data-toggle="tooltip"]').tooltip();
-      });
+        $(function() {
+            'use strict';
+            $('[data-toggle="tooltip"]').tooltip();
+        });
     </script>
-  </body>
+</body>
+
 </html>

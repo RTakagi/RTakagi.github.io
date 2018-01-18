@@ -1,38 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>わたしの自己紹介</title>
-</head>
+  <head>
+    <title>わたしのページ</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<body bgcolor="fff6fb">
-      <h1>
-       <font color="45171d">わたしの自己紹介</font>
-      </h1>
-   <hr color="ff847c">
-   
-   <h2><font color="F03861">氏名</font></h2>
-        <p><font color="ff847c">高木理帆</font></p>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <style>
+      .cover {
+        background-color: #A4E25C;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+     
+      <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-light">
+          <a href="" class="navbar-brand">メニュー→</a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="menu" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a href="https://rtakagi.github.io/abcd" class="nav-link">チャート作成</a></li>
+              <li class="nav-item"><a href="https://rtakagi.github.io/intro" class="nav-link">自己紹介</a></li>
+              <li class="nav-item"><a href="" class="nav-link">その他</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="cover text-white text-center py-5">
+        <h1 class="display-4 mb-4">Welcome to my page!</h1>
+        <p></p>
+        <style>
+              p {
+   background-image: url("https://rtakagi.github.io/005.gif"); /* ※1 */
+   background-repeat: repeat-x;           /* ※2 */
+   overflow: hidden;                      /* ※3 */
+          }
+              </style>
+      </div>
+    </header>
+    <main>
+      <section class="py-5">
+        <h2 class="text-center mb-5">Link</h2>
+        <div class="container text-center">
+         <a href="https://rtakagi.github.io/intro" class="btn btn-success btn-lg">About me</a>
+         <a href="https://rtakagi.github.io/abcd" class="btn btn-success btn-lg">Google Chart</a>
+         <a href="" class="btn btn-success btn-lg">Blog</a>
+         
+                        <div class="col-sm-4">
+              <style>
+              p {
+   background-image: url("https://rtakagi.github.io/005.gif"); /* ※1 */
+   background-repeat: repeat-x;           /* ※2 */
+   overflow: hidden;                      /* ※3 */
+}
+              
+              </style>
+             </div>
+          </div>
+    </main>
+    <footer class="text-center text-muted py-4">
       
-   <h2><font color="F03861">出身</font></h2>
-       <p><font color="ff847c">愛知県</font></p>
-       
-   <h2><font color="f03861">好物</font></h2>
-   <font color="ff847c">
-       <ul>
-        <li>お菓子</li>
-       </ul>
-</font>
-    <h2><font color="f03861">趣味</font></h2>
-        <p><font color="ff847c">夜更かしからの二度寝</font></p>
-    
-    <h2><font color="f03861">ゼミでチャレンジしてみたいこと</font></h2> 
-    <p><font color="ff847c">パソコンを使ってできることを増やしていきたいです。</font></p>
-    <br>
-    <br>
-    <p><a href="https://rtakagi.github.io/abcd">チャート作成</a></p>
-    <br>
-</font>
-</body>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script>
+      $(function() {
+        'use strict';
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+  </body>
 </html>

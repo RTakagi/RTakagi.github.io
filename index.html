@@ -8,23 +8,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <style type="text/css">
-        <!-- body {
+        body {
             background-image: url(https://rtakagi.github.io/55.gif);
             background-repeat: repeat-x;
             background-color: #FFFFFF;
         }
 
-        -->
+    
     </style>
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-
     <style>
         .cover {
             background-color: #b5de45;
             background-size: cover;
         }
+      main {
+    position: relative;
+    width: 100%;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+}
+        
     </style>
 </head>
 
@@ -56,11 +67,24 @@
     </header>
     <main>
         <section class="py-5">
-            <h2 class="text-center mb-5">Link</h2>
+            <h2 class="text-center">Link</h2>
             <div class="container text-center">
-                <a href="https://rtakagi.github.io/intro" class="btn btn-success btn-lg">About me</a>
-                <a href="https://rtakagi.github.io/abcd" class="btn btn-success btn-lg">Google Chart</a>
-                <a href="https://rtakagi.github.io/myblog" class="btn btn-success btn-lg">Blog</a>
+                <a href="https://rtakagi.github.io/intro" class="btn btn-warning btn-lg btn-block">About me</a>
+                <a href="https://rtakagi.github.io/abcd" class="btn btn-success btn-lg btn-block">Google Chart</a>
+                <a href="https://rtakagi.github.io/myblog" class="btn btn-warning btn-lg btn-block"><i class="glyphicon glyphicon-pencil"></i>Blog</a>
+                
+<!--                <a href="https://rtakagi.github.io/myblog" class="btn btn-success btn-lg btn-block">Blog</a>-->
+
+                <button type="button" class="btn btn-success btn-lg btn-block dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Sway <span class="caret"></span>
+  </button>
+                <ul class="dropdown-menu text-center">
+                    <li><a href="https://sway.com/vIZyfm1RDCTqEUYH?ref=Link">チームいちご大福</a></li>
+                    <li><a href="https://sway.com/AQWplwWmldz4JMjR?ref=Link&loc=play">ゼミ研修旅行(2017)</a></li>
+                    
+                    
+                </ul>
+
 
                 <div class="col-sm-4 text-center">
                 </div>
